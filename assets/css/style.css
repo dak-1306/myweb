@@ -84,6 +84,7 @@ a {
 }
 
 /* main */
+/* hero */
 .hero {
   padding: 56px 0px 65px;
   background: #fffcf4;
@@ -98,7 +99,7 @@ a {
 .hero .base {
   width: 270px;
   position: absolute;
-  right: 0px;
+  right: -100px;
   bottom: 48px;
   height: 244px;
   border-radius: 12px;
@@ -243,4 +244,113 @@ a {
 }
 .hero .content-right span:last-of-type {
   margin-left: 28px;
+}
+
+/* courses */
+.courses {
+  padding-top: 200px;
+}
+.courses .body {
+  position: relative;
+}
+.courses .body .text {
+  margin-bottom: 55px;
+}
+.courses .body .text h1 {
+  color: #171100;
+  font-family: Sen;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 126.316% */
+  letter-spacing: -0.76px;
+}
+.courses .body .text .p {
+  width: 45.8rem;
+  color: #5f5b53;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin-top: 16px;
+}
+.courses .card-body {
+  display: flex;
+}
+.courses .card-body .card {
+  margin-right: 30px;
+}
+.courses .card-body .card img {
+  width: 370px;
+  height: 278px;
+  flex-shrink: 0;
+  border-radius: 12px 12px 0px 0px;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+.courses .card-body .content {
+  margin-top: 16px;
+}
+.courses .card-body .content-top {
+  display: flex;
+}
+.courses .card-body .content-top {
+  color: #171100;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+}
+.courses .card-body .content-top img {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+.courses .card-body .content-top span {
+  margin-left: 119px;
+}
+.courses .body .content-center {
+  width: 32.6rem;
+  color: #5f5b53;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.85; /* 185.714% */
+}
+.courses .body .content-bot {
+  display: flex;
+  align-items: center;
+}
+.courses .body .content-bot p {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.67; /* 166.667% */
+}
+.courses .body .content-bot .btn-courses {
+  margin-left: 141px;
+}
+.courses .control {
+  width: 98px;
+  height: 40px;
+  flex-shrink: 0;
+  display: flex;
+  position: absolute;
+  top: 42px;
+  right: 0;
+}
+.courses .control .control-btn {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.courses .control .control-btn:first-of-type {
+  border-radius: 50%;
+  border: 1px solid #ffb900;
+  background-color: #fff;
+  margin-right: 18px;
+}
+.courses .control .control-btn:last-of-type {
+  border-radius: 50%;
+  background-color: #ffb900;
+  border: 1px solid #ffb900;
 }
