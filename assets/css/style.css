@@ -374,9 +374,9 @@ a {
     342.4% no-repeat;
 }
 .bg .introduce .text {
-  width: 160px;
-  margin-top: 18px;
-  margin-bottom: 28px;
+  width: 16rem;
+  margin-top: 1.8rem;
+  margin-bottom: 2.8rem;
 }
 .bg .introduce p:first-of-type {
   color: #f7f7f7;
@@ -388,9 +388,7 @@ a {
 }
 .bg .introduce p:last-of-type {
   color: #bfbcb2;
-  font-family: Poppins;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 185.714% */
 }
@@ -414,7 +412,6 @@ a {
 .bg .infor p {
   width: 740px;
   color: #fff;
-  font-family: Poppins;
   font-size: 26px;
   font-style: italic;
   font-weight: 400;
