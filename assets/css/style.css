@@ -354,3 +354,75 @@ a {
   background-color: #ffb900;
   border: 1px solid #ffb900;
 }
+.bg {
+  background: #2e2100;
+  height: 38rem;
+  margin-top: 20rem;
+}
+.bg .body {
+  display: flex;
+}
+.bg .introduce {
+  margin: 9.6rem 27rem 9.6rem 0rem;
+}
+.bg .introduce .img {
+  width: 7.2rem;
+  height: 7.2rem;
+  flex-shrink: 0;
+  border-radius: 72px;
+  background: url(<path-to-image>) lightgray -51.126px -33.052px / 228.267%
+    342.4% no-repeat;
+}
+.bg .introduce .text {
+  width: 160px;
+  margin-top: 18px;
+  margin-bottom: 28px;
+}
+.bg .introduce p:first-of-type {
+  color: #f7f7f7;
+  font-family: Sen;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px; /* 141.667% */
+}
+.bg .introduce p:last-of-type {
+  color: #bfbcb2;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+}
+.bg .ellipse {
+  display: flex;
+}
+.bg .ellipse1 {
+  width: 6px;
+  height: 6px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #634700;
+}
+.bg .ellipse2 {
+  background: #ffb900;
+  margin: 0 6px;
+}
+.bg .infor {
+  position: relative;
+}
+.bg .infor p {
+  width: 740px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 40px; /* 153.846% */
+  margin-top: 12.4rem;
+}
+.bg .infor img {
+  position: absolute;
+  top: 96px;
+  left: -30px;
+}
